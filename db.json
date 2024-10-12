@@ -1,0 +1,172 @@
+{
+  "Careers": [
+    {
+      "id": "2",
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "ervin@gmail.com",
+      "phone": "8765432109",
+      "location": "Mumbai, India"
+    },
+    {
+      "id": "3",
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "clementine@gmail.com",
+      "phone": "7654321098",
+      "location": "Bangalore, India"
+    },
+    {
+      "id": "4",
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "patricia@gmail.com",
+      "phone": "6543210987",
+      "location": "Hyderabad, India"
+    },
+    {
+      "id": "5",
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "chelsey@gmail.com",
+      "phone": "5432109876",
+      "location": "Delhi, India"
+    },
+    {
+      "id": "6",
+      "name": "Dennis Hart",
+      "username": "Clementine",
+      "email": "dennis@gmail.com",
+      "phone": "4321098765",
+      "location": "Pune, India"
+    },
+    {
+      "id": "7",
+      "name": "Kurtis Weissnat",
+      "username": "Moriah.Stanton",
+      "email": "kurtis@gmail.com",
+      "phone": "3210987654",
+      "location": "Kolkata, India"
+    },
+    {
+      "id": "8",
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Julianne.OConner",
+      "email": "nicholas@gmail.com",
+      "phone": "2109876543",
+      "location": "Ahmedabad, India"
+    },
+    {
+      "id": "9",
+      "name": "Glenna Reichert",
+      "username": "Lindsay",
+      "email": "glenna@gmail.com",
+      "phone": "1098765432",
+      "location": "Jaipur, India"
+    },
+    {
+      "id": "10",
+      "name": "Clementina DuBuque",
+      "username": "Sam",
+      "email": "clementina@gmail.com",
+      "phone": "0987654321",
+      "location": "Surat, India"
+    },
+    {
+      "id": "11",
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "leanne1@gmail.com",
+      "phone": "9876578976",
+      "location": "Chennai, India"
+    },
+    {
+      "id": "12",
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "ervin1@gmail.com",
+      "phone": "8765432109",
+      "location": "Mumbai, India"
+    },
+    {
+      "id": "13",
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "clementine1@gmail.com",
+      "phone": "7654321098",
+      "location": "Bangalore, India"
+    },
+    {
+      "id": "14",
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "patricia1@gmail.com",
+      "phone": "6543210987",
+      "location": "Hyderabad, India"
+    },
+    {
+      "id": "16",
+      "name": "Dennis Hart",
+      "username": "Clementine",
+      "email": "dennis1@gmail.com",
+      "phone": "4321098765",
+      "location": "Pune, India"
+    },
+    {
+      "id": "17",
+      "name": "Kurtis Weissnat",
+      "username": "Moriah.Stanton",
+      "email": "kurtis1@gmail.com",
+      "phone": "3210987654",
+      "location": "Kolkata, India"
+    },
+    {
+      "id": "18",
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Julianne.OConner",
+      "email": "nicholas1@gmail.com",
+      "phone": "90109876543",
+      "location": "Ahmedabad, India"
+    },
+    {
+      "id": "19",
+      "name": "Glenna Reichert",
+      "username": "Lindsay",
+      "email": "glenna1@gmail.com",
+      "phone": "9098765432",
+      "location": "Jaipur, India"
+    },
+    {
+      "id": "20",
+      "name": "Clementina DuBuque",
+      "username": "Sam",
+      "email": "clementina1@gmail.com",
+      "phone": "0987654321",
+      "location": "Surat, India"
+    },
+    {
+      "id": 21,
+      "name": "gowri",
+      "username": "",
+      "email": "gowrics2012@gmail.com",
+      "phone": "9876545678",
+      "location": ""
+    },
+    {
+      "id": 22,
+      "name": "pathi",
+      "username": "pathigowri",
+      "email": "pathi@gmail.com",
+      "phone": "9877789",
+      "location": "chennai"
+    },
+    {
+      "id": 23,
+      "name": "pathi",
+      "username": "pathigowri",
+      "email": "pathi@gmail.com",
+      "phone": "9877789",
+      "location": ""
+    }
+  ]
+}
