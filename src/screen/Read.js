@@ -7,7 +7,7 @@ const Read = () => {
   const { id } = useParams(); // Extracting 'id' from URL
 
   useEffect(() => {
-    axios.get('http://localhost:8001/Careers/' + id)
+    axios.get('http://localhost:8003/Careers/' + id)
       .then(res => setData(res.data))
       .catch(err => console.log(err));
   }, [id]); // Add 'id' to the dependency array

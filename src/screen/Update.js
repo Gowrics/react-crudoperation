@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import axios from 'axios';
-import {Link,useNavigate,useParams} from 'react-router-dom'
+import {Link,useParams} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 const Update = () => {
    // const [data, setData] = useState([]);
     const { id } = useParams(); // Extracting 'id' from URL
@@ -17,7 +19,7 @@ const Update = () => {
 const navigate =useNavigate();
     
 useEffect(() => {
-  axios.get('http://localhost:8001/Careers/' + id)
+  axios.get('http://localhost:8003/Careers/' + id)
     .then(res => {
       console.log('Fetched Data:', res.data);  // Log fetched data
       setValues(res.data);
@@ -28,7 +30,7 @@ useEffect(() => {
 const handleUpdate = (event) => {
     event.preventDefault();
 
-    axios.put('http://localhost:8001/Careers/'+id, values)
+    axios.put('http://localhost:8003/Careers/'+id, values)
     .then(res => {
         console.log('Update Success:', res.data);  // Log response
         navigate('/');  // Redirect on success

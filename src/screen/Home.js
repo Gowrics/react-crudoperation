@@ -8,7 +8,7 @@ const Home = () => {
     const [filteredData, setFilteredData] = useState([]); // State for filtered data
 
     useEffect(() => {
-        axios.get('http://localhost:8001/Careers') // Fetch data from JSON db
+        axios.get('http://localhost:8003/Careers') // Fetch data from JSON db
             .then(res => {
                 setData(res.data);
                 setFilteredData(res.data); // Set initial filtered data
@@ -16,22 +16,22 @@ const Home = () => {
             .catch(err => console.log(err));
     }, []);
 
-    const handleDelete = (id) => {
-        const confirmDelete = window.confirm("Would you like to delete?");
-        if (confirmDelete) {
-            console.log("Attempting to delete user with ID:", id);
-            axios.delete(`http://localhost:8001/Careers/${id}`)
-                .then(res => {
-                    console.log("Deleted:", res.data); // Log the response
-                    // Update the states to remove the deleted user
-                    const newData = data.filter(item => item.id !== id);
-                    setData(newData);
-                    setFilteredData(newData);
-                })
-                .catch(err => console.error("Error deleting user:", err));
-        }
-    };
-    
+const handleDelete = (id) => {
+    const confirmDelete = window.confirm("Would you like to delete?");
+    if (confirmDelete) {
+        console.log("Attempting to delete user with ID:", id);
+        axios.delete(`http://localhost:8003/Careers/${id}`)
+            .then(res => {
+                console.log("Deleted:", res.data); // Log the response
+                // Update the states to remove the deleted user
+                const newData = data.filter(item => item.id !== id);
+                setData(newData);
+                setFilteredData(newData);
+            })
+            .catch(err => console.error("Error deleting user:", err));
+    }
+};
+
     // Handle search input change and filter the data
     const handleSearchChange = (e) => {
         const query = e.target.value.toLowerCase();

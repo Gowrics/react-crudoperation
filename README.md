@@ -36,3 +36,4 @@ Make sure you have Node.js and npm installed.
 5.  Navigate to the directory where your db.json file is located. In the terminal, run the following command:
      json-server --watch db.json --port 8001
 
+6.npm start
